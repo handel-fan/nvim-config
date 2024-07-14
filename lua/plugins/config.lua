@@ -20,6 +20,11 @@ return {
     keys = {
       { "<leader>e", "<cmd>lua MiniFiles.open()<cr>", desc = "Mini Files" },
     },
+    opts = {
+      options = {
+        permanent_delete = false,
+      },
+    },
   },
   {
     "nvim-neo-tree/neo-tree.nvim",

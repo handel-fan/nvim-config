@@ -12,5 +12,7 @@ vim.api.nvim_set_keymap("n", "<leader>asb", "I#!<ESC>:read !which bash<CR>kJx", 
 vim.api.nvim_set_keymap("i", "<C-l>", "<C-o>$", opts)
 vim.api.nvim_set_keymap("v", "<C-d>", "<C-d>:normal! zz<CR>", opts)
 vim.api.nvim_set_keymap("v", "<C-u>", "<C-u>:normal! zz<CR>", opts)
+vim.api.nvim_set_keymap("n", "<C-i>", "<C-i>:normal! zz<CR>", opts)
+vim.api.nvim_set_keymap("n", "<C-o>", "<C-o>:normal! zz<CR>", opts)
 vim.api.nvim_set_keymap("n", "gd", "gd:normal! zz<CR>", opts)
 vim.api.nvim_set_keymap("n", "gI", "gI:normal! zz<CR>", opts)
