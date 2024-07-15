@@ -37,7 +37,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "Carbonfox",
+      colorscheme = "carbonfox",
     },
   },
 }
